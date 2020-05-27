@@ -1,8 +1,10 @@
+import NumberStatus from './numberStatus';
+
 const colors = {
-    available: 'lightgray',
-    used: 'lightgreen',
-    wrong: 'lightcoral',
-    candidate: 'deepskyblue',
+    [NumberStatus.AVAILABLE]: 'lightgray',
+    [NumberStatus.USED]: 'lightgreen',
+    [NumberStatus.WRONG]: 'lightcoral',
+    [NumberStatus.CANDIDATE]: 'deepskyblue',
 };
 
 export default colors;

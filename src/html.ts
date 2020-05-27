@@ -74,11 +74,11 @@ const html = ({ body }: { body: string }): string => `
         <body>
             <div id="game">${body}</div>
             <!-- Dependencies -->
-            <script src="node_modules/react/umd/react.development.js"></script>
-            <script src="node_modules/react-dom/umd/react-dom.development.js"></script>
+            <script src="/node_modules/react/umd/react.development.js"></script>
+            <script src="/node_modules/react-dom/umd/react-dom.development.js"></script>
             
             <!-- Main -->
-<!--            <script src="js/client.js"></script>-->
+            <script src="js/client.js"></script>
         </body>
     </html>
 `;
